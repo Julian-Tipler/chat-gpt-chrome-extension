@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Simple Chat Text Extension",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "activeTab", "clipboardWrite"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "description": "A simple Chrome extension to copy text for chat.openai.com"
+}
