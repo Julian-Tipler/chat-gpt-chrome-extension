@@ -8,7 +8,7 @@
   },
   "permissions": ["scripting", "activeTab", "clipboardWrite", "storage"],
   "host_permissions": ["https://*/*", "http://*/*"],
-  "content-scripte": [
+  "content-script": [
     {
       "matches": [],
       "js": ["contentScript.js"]
